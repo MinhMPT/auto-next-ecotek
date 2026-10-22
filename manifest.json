@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "EcoTek Auto Next Slide",
+  "version": "1.0.0",
+  "description": "Tự động theo dõi bộ đếm ngược và bấm nút Trang sau trên hoclythuyetlaixe.eco-tek.com.vn khi về 0.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hoclythuyetlaixe.eco-tek.com.vn/*",
+        "https://daotaoltx.eco-tek.com.vn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
+
