@@ -44,10 +44,10 @@ Khi bạn chuyển sang tab khác, thu nhỏ trình duyệt, hoặc làm các c�
 1. Mở trình duyệt **Microsoft Edge**.
 2. Nhập vào thanh địa chỉ: `edge://extensions/` và nhấn **Enter**.
 3. Bật công tắc **Chế độ dành cho nhà phát triển** (*Developer Mode*) ở menu bên trái.
-4. Bấm nút **Tải phần mở rộng đã giải nén** (*Load unpacked*).
+4. Bấm nút **Tải phần mở rộng đã giải nén** (*Load unpacked / Load packed*).
 5. Trỏ tới thư mục chứa mã nguồn:
    ```
-   D:\Programing\Edge extentions
+   Ví dụ: D:\auto-next-ecotek hoặc D:\auto-next-ecotek.zip
    ```
 6. Bấm **Select Folder** (Chọn thư mục). Tiện ích **EcoTek Auto Next Slide** sẽ xuất hiện trong danh sách.
 7. Tải lại trang bài học (`F5`) để tiện ích bắt đầu hoạt động.
